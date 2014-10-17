@@ -1,10 +1,10 @@
 bonusProject
 ============
 
-Theory of Computation bonus project.  Given list of integers, split into K groups and minimize sum of each group.  
+Theory of Computation bonus project.  Given list of integers, split into K groups and minimize sum of each group.  Implements a non-traditional genetic algorithm CHC, using conservative selection and highly disruptive crossover (HUX) 
 
 Currently works for K=2 groups as the default.  
-To do:  Implement underlying BitSet as arrays and update fitness to support K = any number of groups.  
+Todo:  Implement underlying BitSet as arrays and update fitness to support K = any number of groups, clean debugging comments, implement verbose mode for large data sets.   
 
  * Reads integer set(s) from a file "input.txt" in the form of {1, 2, 3...} and generates 
  * K=2 subsets in which the difference of sums of the subsets are minimized.  Note that a 
