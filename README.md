@@ -1,7 +1,7 @@
 bonusProject
 ============
 
-Theory of Computation bonus project.  Given list of integers, split into K groups and minimize sum of each group.  Implements a non-traditional genetic algorithm CHC, using conservative selection and highly disruptive crossover (HUX) 
+Theory of Computation bonus project.  Given list of integers, split into K groups and minimize sum of each group.  Implements a non-traditional genetic algorithm CHC(Cross-generational elitist selection, heterogeneous recombination (by incest prevention) and Cataclysmic mutation) [Eshelman 1991].  
 
 Currently works for K=2 groups as the default.  
 Todo:  Implement underlying BitSet as arrays and update fitness to support K = any number of groups, clean debugging comments, implement verbose mode for large data sets.   
